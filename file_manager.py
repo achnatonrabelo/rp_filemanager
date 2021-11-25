@@ -1,6 +1,6 @@
 """ 
 Script didático que tem por objetivo explicar o comportamento
-de alguns recrusdos do Python, tais como:
+de alguns recursos do Python, tais como:
 1) Tuples
 2) Laços de repetição
 3) Tratamento de Exceções com Try..Except
