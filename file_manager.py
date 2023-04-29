@@ -4,9 +4,11 @@ de alguns recursos do Python, tais como:
 1) Tuples
 2) Laços de repetição
 3) Tratamento de Exceções com Try..Except
-4) Manutenção de arquivos com a função open() """
+4) Manutenção de arquivos com a função open() """   
 
 import os as comando
+
+comando.system('cls')
 
 MENU = '''
 1: -> Criar Arquivo
