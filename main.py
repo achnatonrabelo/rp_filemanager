@@ -11,18 +11,20 @@ AUTOR: Achnaton Pessoa Rabelo
 
 import os as comando
 
+from rich import print
+
 comando.system('cls')
 
 MENU = '''
-1: -> Criar Arquivo
-2: -> Ler Arquivo
-3: -> Editar arquivo
-4: -> Deletar Arquivo
-5: -> Limpar tela
-6: -> Listar diretório
-7: -> Mudar diretório
-8: -> Localização atual
-0: -> Encerrar programa
+[bold green][1][/bold green]: -> Criar Arquivo
+[bold green][2][/bold green]: -> Ler Arquivo
+[bold green][3][/bold green]: -> Editar arquivo
+[bold green][4][/bold green]: -> Deletar Arquivo
+[bold green][5][/bold green]: -> Limpar tela
+[bold green][6][/bold green]: -> Listar diretório
+[bold green][7][/bold green]: -> Mudar diretório
+[bold green][8][/bold green]: -> Localização atual
+[bold green][0][/bold green]: -> Encerrar programa
 '''
 
 OP = '-195376'
